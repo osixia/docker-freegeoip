@@ -1,0 +1,3 @@
+/image/service/freegeoip/assets/freegeoip
+/image/service/freegeoip/assets/public/*
+!/image/service/freegeoip/assets/public/README.md
