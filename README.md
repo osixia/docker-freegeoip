@@ -2,14 +2,15 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/osixia/freegeoip.svg)][hub]
 [![Docker Stars](https://img.shields.io/docker/stars/osixia/freegeoip.svg)][hub]
+[![](https://images.microbadger.com/badges/image/osixia/freegeoip.svg)](http://microbadger.com/images/osixia/freegeoip "Get your own image badge on microbadger.com")
 
 [hub]: https://hub.docker.com/r/osixia/freegeoip/
 
 Latest release: 3.1.4 - freegeoip 3.1.4  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/freegeoip/) 
 
-**A very light weight (6.6mo only) docker image to run freegeoip.**
+**A very light weight docker image to run freegeoip.**
 
-> freegeoip website : [freegeoip.net](https://freegeoip.net)
+> [freegeoip.net](https://freegeoip.net)
 
 - [Contributing](#contributing)
 - [Quick Start](#quick-start)
@@ -31,8 +32,6 @@ Run OpenLDAP docker image:
 Wait until the geoip database is downloaded and:
 
 	curl localhost:8080/json/1.2.3.4
-
-
 
 
 ## Changelog
