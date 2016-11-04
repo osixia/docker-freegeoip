@@ -25,7 +25,7 @@ If you find this image useful here's how you can help:
 - Support the development of this image and star this repo !
 
 ## Quick Start
-Run OpenLDAP docker image:
+Run FreeGeoIP docker image:
 
 	docker run --detach -p 8080:8080 osixia/freegeoip:3.1.4
 
