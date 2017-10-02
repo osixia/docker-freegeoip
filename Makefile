@@ -1,12 +1,12 @@
 NAME = osixia/freegeoip
-VERSION = 3.2.0
+VERSION = 3.3.0
 
 .PHONY: compile build build-nocache test tag-latest push push-latest release git-tag-version
 
 compile:
 	env NAME=$(NAME)-compile VERSION=$(VERSION) ./compile/compile.sh
 
-build: binary
+build: compile
 	docker build -t $(NAME):$(VERSION) --rm image
 
 build-nocache:
