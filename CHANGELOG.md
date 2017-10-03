@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.4.0
+  - freegeoip 3.4.0
+
 ## 3.3.0
   - freegeoip 3.3.0
 
