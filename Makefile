@@ -1,5 +1,5 @@
 NAME = osixia/freegeoip
-VERSION = 3.4.0
+VERSION = 3.4.1
 
 .PHONY: compile build build-nocache test tag-latest push push-latest release git-tag-version
 
