@@ -6,7 +6,7 @@
 
 [hub]: https://hub.docker.com/r/osixia/freegeoip/
 
-Latest release: 3.4.0 - freegeoip 3.4.0  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/freegeoip/) 
+Latest release: 3.4.1 - freegeoip 3.4.1  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/freegeoip/) 
 
 **A very light weight docker image to run freegeoip.**
 
@@ -27,7 +27,7 @@ If you find this image useful here's how you can help:
 ## Quick Start
 Run FreeGeoIP docker image:
 
-	docker run --detach -p 8080:8080 osixia/freegeoip:3.4.0
+	docker run --detach -p 8080:8080 osixia/freegeoip:3.4.1
 
 Wait until the geoip database is downloaded and:
 
